@@ -2,14 +2,11 @@
  
 ***Initial Setup***
  
-The server sends a video, and the client receives it.
+The server sends live video, and the client receives it.
 
 To run -> 
-
 run simpleTopo.py. 
-
 On the host h1, run the server code. 
-
 On the host h2, run the client code.
 
  
@@ -27,6 +24,8 @@ clients from other hosts.
 
  
 The videos are encoded into x264 before sending, compressing the video, and reducing the number of packets/data to send.
+
+(We have done everything on a single PC so for multiple clients multiple cameras are required which is a shortage in our case and hence we are sending pre existing mp4 videos)
  
 **Improvement at server PC**
  
