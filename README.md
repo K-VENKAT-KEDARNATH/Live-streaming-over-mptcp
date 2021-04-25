@@ -5,8 +5,11 @@
 The server sends live video, and the client receives it.
 
 To run -> 
+
 run simpleTopo.py. 
+
 On the host h1, run the server code. 
+
 On the host h2, run the client code.
 
  
